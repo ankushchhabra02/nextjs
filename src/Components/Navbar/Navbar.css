@@ -1,0 +1,147 @@
+.navbar{
+   
+    display: flex;
+    justify-content: space-between;
+    padding: 0 3rem;
+    box-shadow: 0 1px 3px -2px black;
+    height: 10vh;
+}
+.nav-logo {
+
+    
+    display: flex;
+    width: 100px;
+    /* aspect-ratio: 2/1; */
+    gap: 1vw;
+    margin-right: 40vw;
+}
+.nav-logo img{
+
+    
+    /* display: flex; */
+    width: 150px;
+    /* height: 100px; */
+    aspect-ratio: 2/1;
+    
+   
+}
+
+.nav-menu{
+    display: flex;
+    /* flex-direction: start; */;
+    /* align-items: center; */
+    list-style: none;
+    gap: 3vw;
+    color: #626262;
+    font-size: 20px;
+    font-weight: 500;
+}
+.nav-menu li{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+.nav-menu hr{
+    border: none;
+    width: 80%;
+    height: 3px;
+    border-radius: 10px;
+    background: #FF4141;
+}
+.nav-login-cart{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 3vw;
+}
+.cartPrice .link  {
+    display: flex;
+    
+    justify-content: space-evenly;
+    
+}
+
+.nav-login-cart li{
+    list-style: none;
+    color: #626262;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+
+.nav-login-cart hr{
+    border: none;
+    margin-left: 10%;
+    width: 80%;
+    height: 3px;
+    border-radius: 10px;
+    background: #FF4141;
+}
+.profile{
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+    
+.nav-cart-count{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 18px;
+    height: 18px;
+    margin-top: -15px;
+    margin-left: -8px;
+    border-radius: 11px;
+    background: #FF4141;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+}
+.link{
+    
+    text-decoration: none;
+    color: #626262;
+   
+}
+/* .cartPrice img{
+    
+    width: 20px;
+    height: 20px;
+} */
+.menu-icon {
+    display: none; /* Hide the menu icon by default on larger screens */
+    cursor: pointer;
+  }
+  
+  .menu-icon .bar {
+    width: 30px;
+    height: 3px;
+    background-color: #626262;
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+  
+  @media (max-width: 768px) {
+    .menu-icon {
+      display: block; /* Show the menu icon on smaller screens */
+    }
+  
+    .nav-menu {
+      display: none; /* Hide the menu items by default on smaller screens */
+    }
+  
+    .nav-menu.active {
+      display: flex; /* Show the menu items when the menu is active */
+      flex-direction: column;
+    }
+  }
+  
+  
+  
+  

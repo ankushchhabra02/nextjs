@@ -1,0 +1,36 @@
+/* Slider.css */
+.a{
+    background-color: pink;
+    padding: 10px 10px;
+    margin: 0;
+}
+/* Style for the container of the slideshow */
+.image-slider-container {
+    
+    /* width: 100%; */
+    /* max-width: 600px; Adjust the maximum width as needed */
+    /* margin: 10px 10px; */
+   
+    overflow: hidden;
+    white-space: nowrap;
+    border: none;
+    border-radius: 10px;
+    
+  }
+  
+  /* Style for the images in the slideshow */
+  .image-slider-container img {
+    width: 100vw;
+    height: 85vh;
+    display: inline-block;
+    object-fit: cover;
+    transition: transform 1.5s ease-in-out;
+    vertical-align: top; /* Align images to the top of the container */
+
+  }
+  
+  /* Style for the visible image */
+  .image-visible {
+    opacity: 1;
+  }
+  

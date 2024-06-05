@@ -1,0 +1,28 @@
+.trending{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: pink;
+    /* justify-content: space-between; */
+    gap: 10px;
+    padding-top: 50px;
+    height: 90vh;
+}
+.trending h1{
+    color: #171717;
+    font-size: 50px;
+    font-weight: 600;
+}
+.trending hr{
+    width: 200px;
+    height: 6px;
+    border-radius: 10px;
+    background: #252525;
+}
+.trending-item{
+    margin-left: 30px;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}

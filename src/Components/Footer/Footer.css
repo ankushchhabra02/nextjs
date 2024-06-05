@@ -1,0 +1,72 @@
+.footer {
+  
+    background-color: lightpink;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+  }
+  
+  .space{
+    flex-basis: 10%;
+  }
+
+  .subscription {
+    flex-basis: 30%;
+  }
+
+  .subscription img{
+    width: 200px;
+    height: 100px;
+  }
+  
+  .subscription input {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    background-color: pink;
+    
+  }
+  
+  .subscription button {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 40px;
+  }
+  
+  .contact {
+    flex-basis: 30%;
+  }
+  
+  .contact h2, .contact p {
+    margin-bottom: 10px;
+  }
+  .contact i{
+    margin-top: 10px;
+    margin-right: 10px;
+    
+  }
+  
+  .links {
+    flex-basis: 30%;
+  }
+  
+  .links h2 {
+    margin-bottom: 10px;
+  }
+  
+  .links ul {
+    list-style-type: none;
+    padding: 0;
+
+  }
+  
+  .links ul li a {
+    color: grey;
+    text-decoration: none;
+
+    
+  }
+  
